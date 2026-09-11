@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root { font-family: 'Manrope', sans-serif; color: #dbeaf2; background: #071426; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; --bg: #071426; --card: #0c1d31; --text: #dbeaf2; --muted: #8ea7ba; --line: rgba(155, 193, 214, .15); --line-strong: rgba(155, 193, 214, .32); --teal: #4fe4d7; --amber: #f4b85f; --heading: 'Space Grotesk', sans-serif; --mono: 'DM Mono', monospace; transition: background .3s ease, color .3s ease; }
+:root[data-theme='light'] { --bg: #f1f7fa; --card: #ffffff; --text: #10263a; --muted: #536b7e; --line: rgba(16, 38, 58, .15); --line-strong: rgba(16, 38, 58, .3); --teal: #087e92; --amber: #b46a09; color: var(--text); }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: var(--bg); }
+button, a { font: inherit; }
+a { color: inherit; text-decoration: none; }
