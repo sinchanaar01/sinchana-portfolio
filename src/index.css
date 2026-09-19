@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
-@import "tailwindcss";
 
-:root { font-family: 'Manrope', sans-serif; color: #dbeaf2; background: #071426; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; --bg: #071426; --card: #0c1d31; --text: #dbeaf2; --muted: #8ea7ba; --line: rgba(155, 193, 214, .15); --line-strong: rgba(155, 193, 214, .32); --teal: #4fe4d7; --amber: #f4b85f; --heading: 'Space Grotesk', sans-serif; --mono: 'DM Mono', monospace; transition: background .3s ease, color .3s ease; }
-:root[data-theme='light'] { --bg: #f1f7fa; --card: #ffffff; --text: #10263a; --muted: #536b7e; --line: rgba(16, 38, 58, .15); --line-strong: rgba(16, 38, 58, .3); --teal: #087e92; --amber: #b46a09; color: var(--text); }
+:root { font-family: 'Manrope', sans-serif; color: #132c49; background: #f7f4ed; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; --paper: #f7f4ed; --navy: #132c49; --blue: #4f89bc; --blue-deep: #28658f; --blue-light: #b9dcf2; --blue-soft: #e3eff5; --coral: #e4776d; --coral-soft: #f8d8d0; --muted: #63778a; --line: rgba(19, 44, 73, .16); --line-strong: rgba(19, 44, 73, .34); --grid: rgba(79, 137, 188, .1); --heading: 'Space Grotesk', sans-serif; --mono: 'DM Mono', monospace; transition: background .3s ease, color .3s ease; }
+:root[data-theme='dark'] { --paper: #11253c; --navy: #f4f0e8; --blue: #8dbde0; --blue-deep: #a9d5ed; --blue-light: #b9dcf2; --blue-soft: #193b5a; --coral: #f18c7e; --coral-soft: #4a3032; --muted: #aab9c6; --line: rgba(232, 239, 243, .18); --line-strong: rgba(232, 239, 243, .35); --grid: rgba(141, 189, 224, .11); }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { margin: 0; min-width: 320px; background: var(--bg); }
+body { margin: 0; min-width: 320px; background: var(--paper); }
 button, a { font: inherit; }
 a { color: inherit; text-decoration: none; }
+:focus-visible { outline: 2px solid var(--coral); outline-offset: 4px; }
