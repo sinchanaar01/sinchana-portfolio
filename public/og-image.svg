@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Sinchana A R portfolio</title>
+  <desc id="desc">Sinchana A R, AI/ML Student and Full Stack Developer</desc>
+  <rect width="1200" height="630" fill="#071426"/>
+  <path d="M0 0h1200v630H0z" fill="url(#grid)" opacity=".34"/>
+  <path d="M790 115h230M790 115l-95 100M1020 115l-115 310M695 215l210 210M905 425h155" fill="none" stroke="#4fe4d7" stroke-width="2" opacity=".7"/>
+  <circle cx="790" cy="115" r="9" fill="#f4b85f"/><circle cx="695" cy="215" r="7" fill="#dbeaf2"/><circle cx="905" cy="425" r="9" fill="#4fe4d7"/><circle cx="1060" cy="425" r="7" fill="#dbeaf2"/><circle cx="1020" cy="115" r="6" fill="#dbeaf2"/>
+  <rect x="84" y="90" width="72" height="4" rx="2" fill="#4fe4d7"/>
+  <text x="84" y="180" fill="#4fe4d7" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">PORTFOLIO / 2026</text>
+  <text x="80" y="300" fill="#dbeaf2" font-family="Arial, sans-serif" font-size="76" font-weight="700">Sinchana A R</text>
+  <text x="84" y="362" fill="#8ea7ba" font-family="Arial, sans-serif" font-size="30">AI/ML Student · Full Stack Developer</text>
+  <text x="84" y="505" fill="#f4b85f" font-family="monospace" font-size="18" letter-spacing="3">PYTHON  /  REACT  /  FASTAPI  /  GENAI</text>
+  <defs><pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#9bbdd0" stroke-width="1"/></pattern></defs>
+</svg>
